@@ -4,7 +4,7 @@ body {
 }
 
 .timer {
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     display: inline-block;
     padding: 24px 32px;
     border-radius: 30px;
