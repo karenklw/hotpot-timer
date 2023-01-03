@@ -3,12 +3,21 @@ body {
     margin: 24px;
 }
 
+p {
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 .timer {
     font-family: 'Source Sans Pro', sans-serif;
-    display: inline-block;
+    display: flex;
     padding: 24px 32px;
     border-radius: 30px;
     background: white;
+    min-width: 230px;
 }
 
 .timer_part {
@@ -34,3 +43,41 @@ body {
 .timer_button-reset {
     background: #ff0256;
 }
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    /* gap: 16px; */
+    /* max-width: 1350px; */
+    margin: 0 auto;
+    /* padding: 20px 10px; */
+    /* overflow: hidden; */
+    /* width: 100%;
+    /* height: 100%; */
+}
+
+.gallery section {
+    padding: 10px 10px 10px 10px;
+    /* min-width: 314px; */
+    /* min-height: 118px; */
+    display: flex;
+}
+
+section > h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    font-size: 18px;
+    position: absolute;
+    /* margin: -25px 0px 0px 80px; */
+    text-align: center;
+    justify-content: center;
+}
+
+/* .break {
+    flex-basis: 100%;
+    height: 0;
+  } */
